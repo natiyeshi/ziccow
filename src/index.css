@@ -1,0 +1,12 @@
+@tailwind base;
+
+html{
+  font-family: 'Lexend', sans-serif;
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+@tailwind components;
+@tailwind utilities;

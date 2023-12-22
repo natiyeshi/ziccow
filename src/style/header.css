@@ -1,0 +1,14 @@
+
+.fadeIn {
+    animation : a 1s   
+}
+
+@keyframes a{
+    from {
+        opacity : 0;
+        transform: translateY(20px)
+    }
+    to{
+        opacity : 100
+    }
+}
